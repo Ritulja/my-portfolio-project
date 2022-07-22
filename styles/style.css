@@ -66,6 +66,9 @@ ul li {
   padding: 10px;
   margin: 20px 0 40px;
 }
+.nioly-pic {
+  box-sizing: border-box;
+}
 .shadow {
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
