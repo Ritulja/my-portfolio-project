@@ -2,6 +2,7 @@
   --heading-font: "Libre Baskerville", serif;
   --default-font: "Poppins", sans-serif;
   --primary-background-color: #e4c0c4;
+  --secondary-background-color: #f2dbd5;
   --primary-text-color: #9c6670;
   --text-color: #111111;
   --button-background-color: #b17f88;
@@ -18,7 +19,6 @@ h1 {
   margin-bottom: 30px;
 }
 h2 {
-  opacity: 66%;
   color: var(--text-color);
   margin-bottom: 100px;
 }
@@ -36,19 +36,36 @@ h2 {
   background-color: var(--button-background-color);
   border-radius: 81px;
   padding: 15px 40px;
-  color: white;
+  color: var(--secondary-background-color);
   font-family: var(--default-font);
-}
-.background-img-bottom {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  right: 35px;
-  top: -160px;
 }
 .line-right {
   margin-right: 30px;
 }
 .line-left {
   margin-left: 30px;
+}
+.skills-page {
+  background-color: var(--secondary-background-color);
+  padding: 40px 0;
+}
+.my-skills {
+  padding: 10px;
+  margin: 20px 0 40px;
+}
+.ul-skills1 {
+  text-align: center;
+}
+.ul-list2 {
+  text-align: center;
+}
+ul li {
+  padding: 0 40px 40px;
+}
+.certificates {
+  padding: 10px;
+  margin: 20px 0 40px;
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
