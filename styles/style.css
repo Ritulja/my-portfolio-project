@@ -26,7 +26,7 @@ h2 {
 .homepage-top {
   background-color: var(--primary-background-color);
   text-align: center;
-  padding: 200px 20px;
+  padding: 100px 20px;
   line-height: 1.5;
 }
 .intro {
@@ -38,4 +38,17 @@ h2 {
   padding: 15px 40px;
   color: white;
   font-family: var(--default-font);
+}
+.background-img-bottom {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 35px;
+  top: -160px;
+}
+.line-right {
+  margin-right: 30px;
+}
+.line-left {
+  margin-left: 30px;
 }
