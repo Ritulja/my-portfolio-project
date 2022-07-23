@@ -56,7 +56,7 @@ h2 {
 .ul-skills1 {
   text-align: center;
 }
-.ul-list2 {
+.ul-skills2 {
   text-align: center;
 }
 ul li {
@@ -64,11 +64,44 @@ ul li {
 }
 .certificates {
   padding: 10px;
-  margin: 20px 0 40px;
+  margin: 20px 0 20px;
 }
-.nioly-pic {
-  box-sizing: border-box;
-}
+
 .shadow {
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .intro {
+    font-size: 32px;
+  }
+  .line-left {
+    display: none;
+  }
+  .line-right {
+    display: none;
+  }
+  .ul-skills1 {
+    padding: 0;
+  }
+  .ul-skills2 {
+    padding: 0;
+  }
+  .img-1 {
+    padding: 10px 60px;
+    margin-bottom: 25px;
+  }
+  .img-2 {
+    padding: 10px 60px;
+    margin-bottom: 25px;
+  }
+  .img-3 {
+    padding: 10px 60px;
+    margin-bottom: 25px;
+  }
 }
