@@ -29,20 +29,52 @@
     <title>Document</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Margareta Krajnikovics</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="about.html" target="_blank">About me</a>
+            <a class="nav-link" href="my-projects.html" target="_blank"
+              >My projects</a
+            >
+            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="homepage-top">
       <p class="intro">I am</p>
       <h1>Margareta Krajnikovics</h1>
 
-      <h2>
+      <h2 class="main-h2">
         <img src="images/line3.png" class="line-right" alt="line" />
         <span class="opacity-75">Front-end developer, based in London</span>
         <img src="images/line3.png" class="line-left" alt="line" />
       </h2>
       <div>
-        <a href="#" class="btn btn-branding" title="Let's start">Let's start</a>
+        <a
+          href="#skills-contact"
+          class="btn btn-branding homepage-top-button"
+          title="Let's start"
+          >Let's start</a
+        >
       </div>
     </div>
-    <div class="skills-page">
+    <div class="skills-page" id="skills-contact">
       <h2 class="text-center my-skills">My skills</h2>
       <ul class="ul-skills1">
         <li class="list-inline-item">
@@ -135,6 +167,39 @@
           </div>
         </div>
       </div>
+
+      <div class="go-to-portfolio-mainpage">
+        <h2 class="go-to-portfolio-mainpage-h2">Go to my portfolio</h2>
+        <h3 class="go-to-portfolio-mainpage-h3">to check out my projects</h3>
+
+        <a
+          href="#"
+          class="btn btn-branding go-to-portfolio-homepage-button"
+          title="my projects"
+          >My projects</a
+        >
+      </div>
+
+      <footer>
+        <img
+          src="images/facebook-icon.png"
+          class="facebook-icon"
+          title="facebook icon"
+          alt="facebook icon"
+        />
+        <img
+          src="images/instagram-icon.png"
+          class="instagram-icon"
+          title="instagram icon"
+          alt="instagram icon"
+        />
+        <img
+          src="images/email-icon.png"
+          class="email-icon"
+          title="email icon"
+          alt="email icon"
+        />
+      </footer>
     </div>
   </body>
 </html>
