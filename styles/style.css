@@ -25,21 +25,15 @@ ul li {
   padding: 0 40px 40px;
 }
 footer {
-  padding: 100px 0 50px;
   text-align: center;
+  margin: 100px;
 }
-footer .email-icon {
-  padding-right: 20px;
+footer .icons {
+  padding: 10px;
+  margin: 20px;
   width: 60px;
 }
-footer .facebook-icon {
-  padding-right: 20px;
-  width: 60px;
-}
-footer .instagram-icon {
-  padding-right: 20px;
-  width: 60px;
-}
+
 .navbar-brand {
   font-size: 34 px;
   color: var(--primary-text-color);
@@ -146,7 +140,7 @@ footer .instagram-icon {
 }
 
 .about-me-content {
-  padding: 80px 20px;
+  padding: 80px 20px 20px;
   line-height: 1.5;
   background-color: var(--primary-background-color);
   margin: 0;
@@ -227,9 +221,12 @@ footer .instagram-icon {
   width: 400px;
 }
 
-.contact-homapage {
-  background-color: var(--primary-background-color);
+.contact-me-main-page {
+  background-color: var(--secondary-background-color);
+  margin: 50px 0;
   text-align: center;
-  padding: 150px 20px;
-  line-height: 1.5;
+  padding: 70px 0;
+}
+a {
+  text-decoration: none;
 }
