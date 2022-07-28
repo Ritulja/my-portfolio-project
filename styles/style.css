@@ -208,13 +208,25 @@ footer .instagram-icon {
   padding: 150px 20px;
   line-height: 1.5;
 }
-.my-projects-content h1 {
-  margin-bottom: 100px;
+.my-projects-container {
+  margin-top: 100px;
+}
+.project-content {
+  margin: 100px 0 50px 0;
+}
+.my-project-main-button {
+  background-color: var(--button-background-color);
+  border-radius: 81px;
+  padding: 15px 40px;
+  color: var(--secondary-background-color);
+  font-family: var(--default-font);
+  margin-top: 90px;
 }
 
-.nioly-site-img {
+.project-imgs {
   width: 400px;
 }
+
 .contact-homapage {
   background-color: var(--primary-background-color);
   text-align: center;
