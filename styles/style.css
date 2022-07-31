@@ -27,13 +27,15 @@ ul li {
 footer {
   margin: 60px;
 }
-footer .icons {
-  display: flex;
-  justify-content: center;
+
+footer .icons a {
+  color: var(--primary-text-color);
+  font-size: 24px;
+  padding: 10px;
 }
 footer .contact-box {
   padding: 40px 140px;
-  margin: 30px;
+  margin: 100px 30px;
   background-color: var(--primary-background-color);
   border-radius: 10px;
 }
@@ -58,7 +60,6 @@ footer .go-to-portfolio-homepage-button {
 }
 .homepage-content h1 {
   margin-bottom: 30px;
-  text-align: center;
 }
 .homepage-content h2 {
   color: var(--text-color);
@@ -131,11 +132,10 @@ footer .go-to-portfolio-homepage-button {
 }
 
 .about-me-content {
-  padding: 80px 20px 20px;
+  padding: 80px 20px;
   line-height: 1.5;
   background-color: var(--primary-background-color);
   margin: 0;
-  text-align: center;
 }
 .about-me-content h1 {
   margin: 50px;
@@ -154,7 +154,6 @@ footer .go-to-portfolio-homepage-button {
   padding: 20px 20px;
   font-family: var(--default-font);
   line-height: 2.5;
-  text-align: center;
 }
 .about-me-button {
   background-color: var(--button-background-color);
@@ -166,7 +165,7 @@ footer .go-to-portfolio-homepage-button {
 .about-me-contact {
   background-color: var(--secondary-background-color);
   margin: 0;
-  text-align: center;
+
   padding: 100px;
 }
 .about-me-contact h2 {
@@ -184,7 +183,7 @@ footer .go-to-portfolio-homepage-button {
   margin-top: 30px;
 }
 .my-projects-homepage {
-  background-color: var(--primary-background-color);
+  background-color: var(--secondary-background-color);
   padding: 150px 20px;
   line-height: 1.5;
 }
