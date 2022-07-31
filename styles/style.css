@@ -25,13 +25,25 @@ ul li {
   padding: 0 40px 40px;
 }
 footer {
-  text-align: center;
-  margin: 100px;
+  margin: 60px;
 }
 footer .icons {
-  padding: 10px;
-  margin: 20px;
-  width: 60px;
+  display: flex;
+  justify-content: center;
+}
+footer .contact-box {
+  padding: 40px 140px;
+  margin: 30px;
+  background-color: var(--primary-background-color);
+  border-radius: 10px;
+}
+footer .go-to-portfolio-homepage-button {
+  background-color: var(--button-background-color);
+  border-radius: 81px;
+  padding: 15px 40px;
+  color: var(--secondary-background-color);
+  font-family: var(--default-font);
+  margin: 30px 50px 30px 0;
 }
 
 .navbar-brand {
@@ -41,7 +53,6 @@ footer .icons {
 }
 .homepage-content {
   background-color: var(--primary-background-color);
-  text-align: center;
   padding: 150px 20px;
   line-height: 1.5;
 }
@@ -75,32 +86,12 @@ footer .icons {
   padding: 40px 0;
 }
 .skills-page-content h2 {
-  padding: 10px;
-  margin: 20px 0 40px;
+  margin: 20px 0 20px;
 }
 
 .certificates-page-content {
   padding: 10px;
   margin: 20px 0 20px;
-}
-
-.go-to-portfolio-homepage {
-  margin: 150px 0 100px;
-  text-align: center;
-}
-.go-to-portfolio-homepage h2 {
-  margin-bottom: 20px;
-}
-.go-to-portfolio-homepage h3 {
-  margin-bottom: 100px;
-}
-
-.go-to-portfolio-homepage-button {
-  background-color: var(--button-background-color);
-  border-radius: 81px;
-  padding: 15px 40px;
-  color: var(--secondary-background-color);
-  font-family: var(--default-font);
 }
 
 @media (max-width: 900px) {
@@ -183,11 +174,6 @@ footer .icons {
   margin-bottom: 30px;
   font-size: 30px;
 }
-.about-me-contact-email {
-  text-decoration: none;
-  color: var(--primary-text-color);
-  font-size: 28px;
-}
 
 .about-me-contact-button {
   background-color: var(--button-background-color);
@@ -229,4 +215,12 @@ footer .icons {
 }
 a {
   text-decoration: none;
+}
+h3 a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-size: 28px;
+}
+h3 a:hover {
+  color: var(--primary-text-color);
 }
