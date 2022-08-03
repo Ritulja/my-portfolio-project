@@ -197,8 +197,12 @@ footer .go-to-portfolio-homepage-button {
 }
 
 .project-content {
-  margin: 100px 0 50px 0;
-  padding: 40px;
+  margin: 20px 0;
+  padding: 50px;
+}
+.project-content h3 {
+  line-height: 2;
+  margin-top: 30px;
 }
 .my-project-main-button {
   background-color: var(--button-background-color);
@@ -206,7 +210,7 @@ footer .go-to-portfolio-homepage-button {
   padding: 15px 40px;
   color: var(--secondary-background-color);
   font-family: var(--default-font);
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .project-imgs {
