@@ -31,6 +31,7 @@ footer {
   padding: 10px;
 }
 footer h2 {
+  padding: 20px;
   margin: 20px 0;
 }
 footer h3 {
@@ -114,6 +115,10 @@ footer .go-to-portfolio-homepage-button {
   h2 {
     font-size: 30px;
   }
+  h3 {
+    font-size: 18px;
+  }
+
   .intro {
     font-size: 32px;
   }
@@ -140,6 +145,26 @@ footer .go-to-portfolio-homepage-button {
   .img-3 {
     padding: 10px 60px;
     margin-bottom: 25px;
+  }
+  .about-me-contact {
+    display: none;
+  }
+  .my-project-main-button {
+    font-size: 12px;
+  }
+  .contact-me-email {
+    font-size: 16px;
+  }
+  footer .go-to-portfolio-footer {
+    display: none;
+  }
+
+  footer .icons {
+    margin: 20px 0 0;
+  }
+  footer p .coded-by {
+    font-size: 10px;
+    padding: 0;
   }
 }
 
